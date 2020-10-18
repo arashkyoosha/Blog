@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin_arashk:Arashk2020Esk@cluster0.acm3w.mongodb.net/blogDB", {useNewUrlParser: true});
+mongoose.connect("Removed from public repo", {useNewUrlParser: true});
 
 const postSchema = {
   title: String,
